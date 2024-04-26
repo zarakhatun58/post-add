@@ -1,0 +1,68 @@
+.card {
+  width: 155px;
+  height: 30px;
+  padding: 7px 10px;
+  border: 1px solid #e6d5d5;
+  box-shadow: 0 3px 10px rgb(75 74 74 / 20%);
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cardText {
+  font-size: 12px;
+  margin: 6px;
+  font-weight: 600;
+}
+.cardIcon {
+  width: 20px;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+.dualCard {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  overflow-y: auto;
+}
+.HeaderText {
+  font-size: 15px;
+  text-align: right;
+  font-weight: 600;
+  width: 200px;
+}
+.modalConatiner {
+  margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .modalConatiner {
+    margin: 1px;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 1600px) {
+  .modalConatiner {
+    margin: 1px;
+  }
+  .cardText {
+    font-size: 10px;
+    margin: 4px;
+    font-weight: 600;
+  }
+  .cardIcon {
+    margin-top: 0px;
+    margin-right: 2px;
+  }
+  .cardIcon svg {
+    width: 15px;
+  }
+  .card {
+    width: 115px;
+    height: 24px;
+    padding: 5px 5px;
+    margin: 5px;
+  }
+}
+@media only screen and (min-width: 769px) {
+}
